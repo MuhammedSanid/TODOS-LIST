@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(to right bottom, #f18716, #573210);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper {
+  background-color: #011114;
+  min-width: 350px;
+  min-height: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+}
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+}
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  font-size: 15px;
+  margin-right: 25px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid #e96913;
+  border-radius: 10px;
+}
+.button-add {
+  width: 60px;
+  padding: 12px 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #e96913;
+  cursor: pointer;
+}
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #f78b44;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: transparent;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: #011114;
+}
+.button-complete {
+  color: #f6f8f6;
+  margin-right: 17px;
+}
+
+.button-edit {
+  color: #128cf0;
+  margin-right: 17px;
+}
+.button-edit:hover{
+  color: #3a5b75;
+}
+.button-delete {
+  color: rgb(228, 41, 8);
+}
+.button-delete:hover{
+  color: rgb(235, 82, 82);
+}
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line:line-through ;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+.list{
+  width: 220px;
+  background-color: #011114;
+  border: none;
+  color:rgb(226, 219, 219);
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+input:focus,
+button:focus{
+  outline: none;
+}
+.button-complete:hover{
+  color: rgb(72, 131, 14);
+}
+
